@@ -89,3 +89,18 @@ form p{
   font-size: 10px;
   font-weight: bold;
 }
+.submit{
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 375px){
+  .container{
+    flex-direction: column;
+    padding: 1px;
+    max-width: 100%;
+  }
+  .text{
+    padding: 1px;
+    width: 100%;
+  }
+}
